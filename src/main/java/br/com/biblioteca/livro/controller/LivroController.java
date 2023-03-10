@@ -50,7 +50,7 @@ public class LivroController {
 	
 @GetMapping("/")
 public String frase() {
-	return "Olá, essa é minha primeira APi!"
+	return "Olá, essa é minha primeira APi!";
 }
 	
 	
