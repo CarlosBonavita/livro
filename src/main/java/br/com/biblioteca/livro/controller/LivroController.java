@@ -47,5 +47,11 @@ public class LivroController {
 		System.out.println(dados);
 		return repo.save(dados);
 	}
-
+	
+@GetMapping("/")
+public String frase() {
+	return "Olá, essa é minha primeira APi!"
+}
+	
+	
 }
